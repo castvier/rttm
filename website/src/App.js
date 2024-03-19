@@ -16,6 +16,7 @@ import {
 } from "react-router-dom";
 import AboutUs from "./components/AboutUs";
 import Gallery from "./components/Gallery";
+import VideoPlayer from "./components/VideoPlayer";
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/technologies" element={<Technologies />} />
-          <Route path="/camera-management" element={<CameraManagement />}>
+          <Route path="/video-player" element={<VideoPlayer />}>
             <Route path="general" element={<General />} />
             <Route path="new-camera" element={<NewCamera />} />
             <Route path="remove-cameras" element={<RemoveCameras />} />
