@@ -35,10 +35,7 @@ const VideoPlayer = () => {
             marginTop: '2rem',
           }}
         >
-          <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', zIndex: 1 }}>
-            <h3 style={{ marginLeft: '1rem' }}>User Management Demo</h3>
-          </div>
-          <video
+          <iframe
             style={{
               position: 'absolute',
               top: 0,
@@ -46,13 +43,12 @@ const VideoPlayer = () => {
               width: '100%',
               height: '100%',
             }}
-            controls
-            loop
-            preload="auto"
-          >
-            <source src={process.env.PUBLIC_URL + "/videos/PendingUsersDemo.mp4"} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+            src="https://www.youtube.com/embed/FdwzPwGrFvQ"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="User Management Demo"
+          />
         </div>
       </section>
     </div>
