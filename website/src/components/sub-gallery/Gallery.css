@@ -1,8 +1,8 @@
 .gallery {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
+  padding: 20px; /* Increase padding */
+  margin-bottom: 200px; /* Adjust the value as needed for your layout */
+}
+
   
   .gallery h1 {
     font-size: 24px;

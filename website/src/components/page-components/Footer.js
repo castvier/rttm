@@ -8,10 +8,15 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-4">
             <a href="https://www.csun.edu" target="_blank" rel="noopener noreferrer">
-              <img src={process.env.PUBLIC_URL + "/images/img-AboutUs/CSUNlogo.png"} alt="CSUN Logo" className="img-fluid" />
+              <img
+                src={process.env.PUBLIC_URL + "/images/img-AboutUs/CSUNlogo.png"}
+                alt="CSUN Logo"
+                className="img-fluid"
+                style={{ maxWidth: '150px', height: 'auto' }}
+              />
             </a>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-8">
             <small>
               <a href="https://www.facebook.com/calstatenorthridge" target="_blank" rel="noopener noreferrer" className="footer-link">
                 <i className="fab fa-facebook"></i> Facebook
@@ -25,6 +30,9 @@ const Footer = () => {
               <a href="https://www.instagram.com/csun_edu/?hl=en" target="_blank" rel="noopener noreferrer" className="footer-link">
                 <i className="fab fa-instagram"></i> Instagram
               </a>
+              <a href="https://www.csun.edu/~xjiang/SeniorDesign/" target="_blank" rel="noopener noreferrer" className="footer-link">
+                Back to Course Page
+              </a>
             </small>
           </div>
         </div>
@@ -33,15 +41,6 @@ const Footer = () => {
           <div className="col-md-12">
             <small>
               &copy; {new Date().getFullYear()} California State University, Northridge
-            </small>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-md-12">
-            <small>
-              <a href="https://www.csun.edu/~xjiang/SeniorDesign/" target="_blank" rel="noopener noreferrer" className="footer-link">
-                Back to Course Page
-              </a>
             </small>
           </div>
         </div>

@@ -1,49 +1,64 @@
+/* Base styles for the footer */
 .footer {
-  position: relative;
-  height: 100px;
-  clear:both;
-  padding-top:20px;
+  background-color: #43404F; /* Dark gray color, set to match your theme */
+  color: white; /* White text color for contrast */
+  padding: 0px ; /* Padding at the top and bottom */
+  text-align: center; /* Center aligns the content */
+  position: fixed; /* Fixed position to make it stick at the bottom */
+  bottom: 0; /* Align to the bottom of the page */
+  left: 0; /* Stretch across the page from the left */
+  width: 100%; /* Ensure it stretches full width */
+  z-index: 1000; /* Ensures the footer is above other content */
 }
 
-button{
-  color: black;
-  text-decoration: none;
-  cursor: auto;
-  font:500;
-  
-  
+/* Styles for the footer logo image */
+.footer img {
+  max-width: 150px; /* Sets the maximum width of the logo */
+  height: auto; /* Ensures the height scales proportionally */
 }
 
+/* Styles for links in the footer */
 .footer-link {
-color: black;
-text-decoration: none;
-font-size: 14px;
-font-weight: 400;
-white-space: nowrap;
-width: 100%;
-margin-right: 20px; 
-
-position: sticky  
+  color: white; /* Sets the link color to white for visibility */
+  text-decoration: none; /* Removes underline from links */
+  margin-right: 20px; /* Space between links */
+  display: inline-block; /* Aligns links in line and enables margin */
 }
 
+/* Hover effect for footer links */
 .footer-link:hover {
-  color: rgb(255, 15, 15);
+  color: #ff0f0f; /* Changes color on hover to a bright red */
 }
 
-.footer-all {
-width: 100%;
-margin: 0;
-padding: 0;
-display: flex;
-flex-direction: row;
-justify-content: center; /* Center the elements horizontally */
-align-items: center;
+/* Container within the footer for alignment */
+.footer .container {
+  max-width: 1200px; /* Maximum width of the content */
+  margin: auto; /* Centers the container */
 }
 
-.footer-line {
-height: .8px;
-background-color: black;
-width: calc(100% - 5%);
-margin: 0 auto;
-margin-top: 20px;
+/* Adjusts the vertical alignment of items within each row */
+.footer .row {
+  align-items: center; /* Centers items vertically */
 }
+
+/* Styles the horizontal rule to visually separate content */
+.footer hr {
+  background-color: white; /* Makes the line white */
+  height: 1px; /* Sets the thickness of the line */
+  border: none; /* Removes default border */
+  margin-top: 20px; /* Space above the line */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .footer .row,
+  .footer .col-md-4 {
+    text-align: center; /* Centers content on small screens */
+  }
+
+  .footer-link {
+    display: block; /* Stacks links vertically */
+    margin: 10px auto; /* Adds space around links and centers them */
+  }
+}
+

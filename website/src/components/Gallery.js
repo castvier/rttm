@@ -1,6 +1,6 @@
 import React from 'react';
-import './sub-gallery/Gallery.css';
-import GalleryGrid from './sub-gallery/GalleryGrid';
+import './sub-gallery/Gallery.css'; // Make sure this path is correct
+import GalleryGrid from './sub-gallery/GalleryGrid'; // Adjustments might also be needed in GalleryGrid's CSS for size
 
 const Gallery = () => {
   return (

@@ -21,7 +21,7 @@ header {
 
 /* Footer style */
 footer {
-  background-color: rgb(37, 37, 37);  /* Dark gray color */
+  background-color: #43404F;  /* Dark gray color */
   position: absolute;
   left: 0;
   bottom: 0;
@@ -149,4 +149,12 @@ code {
   height: 300px; /* Set the height you want for all charts */
   width: 300px;  /* Set the width you want for all charts */
   /* Add any other styles you want to apply globally */
+}
+
+.github-link-container {
+  font-family: 'Roboto', sans-serif; /* This line applies the Roboto font */
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+  margin-bottom: 20rem;
 }

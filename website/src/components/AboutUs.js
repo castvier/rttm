@@ -54,7 +54,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        <img src={process.env.PUBLIC_URL + "/images/img-AboutUs/CSUNlogo.png"} alt="CSUN logo" />
+        <div className="spacing-below-team"></div> {/* Extra spacing div */}
       </div>
     </section>
   );

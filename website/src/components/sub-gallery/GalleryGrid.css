@@ -1,9 +1,13 @@
 .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  grid-template-rows: repeat(2, auto); /* Two rows */
+  gap: 20px; /* Adjust the gap between pictures as needed */
+  justify-content: center;
+  align-items: center;
+}
+
+
   .gallery-item {
     position: relative;
     overflow: hidden;
@@ -11,8 +15,8 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  .gallery-item img {
+  .gallery-item img { /* Adjust the class name based on your actual CSS */
     width: 100%;
     height: auto;
-    object-fit: cover;
+    object-fit: cover; /* This ensures the image covers the area nicely */
   }

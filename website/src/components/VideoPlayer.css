@@ -1,0 +1,18 @@
+.video-player-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Use min-height instead of height */
+    padding-bottom: 10rem; /* Add bottom padding */
+  }
+  
+  .video-player-container section {
+    width: 100%;
+    max-width: 1080px; /* Set the maximum width */
+    margin-bottom: 2rem; /* Move the margin to the section */
+  }
+
+  .video-player-container video {
+    margin-bottom: 2rem; /* Add spacing at the bottom */
+  }
