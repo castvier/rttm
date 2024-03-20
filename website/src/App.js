@@ -1,3 +1,4 @@
+import React from 'react';
 import Header from "./components/page-components/Header";
 import Footer from "./components/page-components/Footer";
 import MainPage from "./components/Mainpage";
@@ -7,28 +8,21 @@ import General from "./components/camera-management-subpages/General";
 import Configuration from "./components/camera-management-subpages/Configuration";
 import NewCamera from "./components/camera-management-subpages/NewCamera";
 import RemoveCameras from "./components/camera-management-subpages/RemoveCameras";
-import React, { useState } from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Switch,
-} from "react-router-dom";
 import AboutUs from "./components/AboutUs";
 import Gallery from "./components/Gallery";
 import VideoPlayer from "./components/VideoPlayer";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <div className="content">
-        <Header />
-      </div>
+      <Header />
       <div className="container-fluid">
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/technologies" element={<Technologies />} />
-          <Route path="/video-player" element={<VideoPlayer />}>
+          <Route path="/video-player" element={<VideoPlayer />} />
+          <Route path="/camera-management" element={<CameraManagement />}>
             <Route path="general" element={<General />} />
             <Route path="new-camera" element={<NewCamera />} />
             <Route path="remove-cameras" element={<RemoveCameras />} />
@@ -38,10 +32,7 @@ function App() {
           <Route path="/about-us" element={<AboutUs />} />
         </Routes>
       </div>
-      <div className="chart"></div>
-      <div className="footer">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 }
