@@ -11,7 +11,7 @@ import RemoveCameras from "./components/camera-management-subpages/RemoveCameras
 import AboutUs from "./components/AboutUs";
 import Gallery from "./components/Gallery";
 import VideoPlayer from "./components/VideoPlayer";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
