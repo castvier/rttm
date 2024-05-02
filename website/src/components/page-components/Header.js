@@ -7,7 +7,7 @@ const Header = () => {
     <header>
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <h1 className="logo col-2">RTTM</h1>
+        <h1 className="logo col-auto">Real Time Traffic Monitoring</h1>
           <div className="navbar-nav col-15 justify-content-center">
             <NavLink exact to="/" className="nav-link" activeClassName="active">
               Home

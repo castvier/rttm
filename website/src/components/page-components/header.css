@@ -52,3 +52,10 @@ nav {
 .div-header * {
   background-color: inherit;
 }
+.logo {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+}
+.logo {
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}

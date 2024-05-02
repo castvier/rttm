@@ -1,68 +1,48 @@
-.text-box {
-  background-color: transparent;
-  font-size: 25px; /* Set the font size to 25px */
-  text-align: left;
-  margin-bottom: 50px; /* Add spacing at the bottom */
+.technologies-section {
+  background-color: #565264;
+  padding: 40px;
 }
 
-/* These below are for headers and paragraphs on the left side */
-.techRTTM {
-  text-align: left;
-  margin-top: 100pt;
-  color: aliceblue;
+.section-heading {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
-.techH {
-  text-align: left;
-  margin-top: 100pt;
-  color: red;
+.section-description {
+  color: #d9d9d9;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
-.techP {
-  text-align: left;
-  color: aliceblue;
-  font-size: 25px; /* Updated font size to be slightly bigger */
+.tech-list,
+.tech-skills-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-/* These below are for Headers and Paragraphs on the right side */
-.techHR {
-  text-align: right;
-  margin-top: 100pt;
-  color: red;
+.tech-list li,
+.tech-skills-list li {
+  color: #d9d9d9;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
 }
 
-.techPR {
-  text-align: right;
-  color: aliceblue;
-  font-size: 25px; /* Updated font size to be slightly bigger */
+.tech-list li a,
+.tech-skills-list li a {
+  color: #d9d9d9;
+  text-decoration: none;
 }
 
-h3 {
-  font-size: 55px;
-  color: white;
-  font-weight: 800;
-  text-decoration: underline;
-  text-align: center;
+.tech-list li a:hover,
+.tech-skills-list li a:hover {
+  color: #ffffff;
 }
 
-.img-webthumbnail {
-  height: 75%;
-  width: 75%;
-  border: 2px solid white;
+.tech-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
   border-radius: 5px;
-}
-
-.text-box-right {
-  background-color: transparent;
-  font-size: 25px;
-  text-align: right;
-  color: white;
-  margin-bottom: 50px; /* Add spacing at the bottom */
-}
-
-.tech-photo {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  margin-bottom: 10px;
 }
