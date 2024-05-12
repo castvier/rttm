@@ -11,6 +11,7 @@ import RemoveCameras from "./components/camera-management-subpages/RemoveCameras
 import AboutUs from "./components/AboutUs";
 import Gallery from "./components/Gallery";
 import VideoPlayer from "./components/VideoPlayer";
+import Features from "./components/Features"; // Import the Features component
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -29,7 +30,9 @@ function App() {
             <Route path="configuration" element={<Configuration />} />
           </Route>
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/features" element={<Features />} /> {/* Add the Features route */}
           <Route path="/about-us" element={<AboutUs />} />
+
         </Routes>
       </div>
       <Footer />

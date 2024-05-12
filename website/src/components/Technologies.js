@@ -120,23 +120,24 @@ const Technologies = () => {
                   alt="Data Processing"
                   className="tech-image"
                 />
-                Data Processing: Utilizing MATLAB for data analysis,
-                preprocessing, and visualization to gain insights from the
-                collected traffic data.
               </li>
               <li>
                 <img
                   src={process.env.PUBLIC_URL + "/images/img-technologies/TechnologyLidarPicture.png"}
-                  alt="3D Environmental Scanning"
+                  alt="3D Environmental Scanning with Velodyne LiDAR"
                   className="tech-image"
                 />
-                3D Environmental Scanning: Employing LiDAR technology,
-                specifically Velodyne LiDAR, for high-resolution 3D scanning of
-                traffic environments.
+                <img
+                  src={process.env.PUBLIC_URL + "/images/img-technologies/IntelRealsense.png"}
+                  alt="2D Environmental Scanning with Intel® RealSense™"
+                  className="tech-image"
+                />
+                <p>
+                  2D & 3D Environmental Scanning: Currently utilizing the Intel® RealSense™ Depth Camera 435i for precise 2D scanning, with plans to integrate Velodyne LiDAR Puck for high-resolution 3D scanning of traffic environments. This future enhancement will expand our capabilities to capture detailed 3D point clouds, further enhancing our traffic monitoring and management system.
+                </p>
               </li>
               <li>
-                Cloud Computing: Leveraging AWS services for scalable and
-                efficient data storage, processing, and deployment.
+              Historical Data Visualization Techniques: Our system integrates advanced visualization tools to analyze and present historical traffic data effectively. By utilizing interactive charts, heat maps, and time-series analyses, we provide comprehensive insights into traffic trends and behaviors over extended periods. This enables informed decision-making and strategic planning for traffic management and infrastructure development.
               </li>
               <li>
                 <img

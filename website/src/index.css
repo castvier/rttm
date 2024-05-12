@@ -155,6 +155,6 @@ code {
   font-family: 'Roboto', sans-serif; /* This line applies the Roboto font */
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
-  margin-bottom: 0.2rem;
+  margin-top: -4rem;
+  margin-bottom: 1rem;
 }

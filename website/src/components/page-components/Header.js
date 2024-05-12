@@ -7,7 +7,7 @@ const Header = () => {
     <header>
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
-        <h1 className="logo col-auto">Real Time Traffic Monitoring</h1>
+          <h1 className="logo col-auto">Real Time Traffic Monitoring</h1>
           <div className="navbar-nav col-15 justify-content-center">
             <NavLink exact to="/" className="nav-link" activeClassName="active">
               Home
@@ -20,6 +20,9 @@ const Header = () => {
             </NavLink>
             <NavLink exact to="/technologies" className="nav-link" activeClassName="active">
               Technologies
+            </NavLink>
+            <NavLink exact to="/features" className="nav-link" activeClassName="active">
+              Features
             </NavLink>
             <NavLink exact to="/about-us" className="nav-link" activeClassName="active">
               About Us

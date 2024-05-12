@@ -3,8 +3,8 @@
   margin-bottom: 200px; /* Adjust the value as needed for your layout */
 }
 
-  
-  .gallery h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
+.gallery h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white; /* Set text color to white */
+}

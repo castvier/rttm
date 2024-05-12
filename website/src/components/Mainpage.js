@@ -14,14 +14,7 @@ const Mainpage = () => {
         <div className="box">
           <h1 className="about-title">Our Project Introduction</h1>
           <div className="main-content">
-            <p className='aboutUsP'>
-              The primary aim of our project is to enhance the efficiency of intelligent transportation planning through advanced vehicle detection techniques. Leveraging the robustness of 3D LiDAR technology, we endeavor to overcome the limitations faced by traditional 2D vehicle detection methods under adverse weather conditions like fog, rain, snow, and extreme winds. Our project introduces an innovative system designed to capture, process, and analyze real-time traffic flow data using 3D LiDAR cameras strategically deployed along highways and freeways, areas where existing research on 3D vehicle detection, typically focused on autonomous driving, falls short.
-              Our system stands out by offering a comprehensive web-based service that not only detects and classifies vehicles in real-time traffic flows but also presents this data through dynamic, user-friendly visualizations. This approach facilitates a deeper understanding of traffic patterns, supporting more informed decisions in traffic management and planning. By bridging the gap in current research and applying 3D LiDAR technology in a novel context, our project sets a new standard for real-time vehicle detection and traffic data analysis, promising significant improvements in the field of intelligent transportation systems.
-            </p>
-          </div>
-        </div>
-
-        {/* GitHub link container */}
+                    {/* GitHub link container */}
         <div className="github-link-container">
           <a
             href="https://github.com/CalTransProject/rttm"
@@ -32,6 +25,19 @@ const Mainpage = () => {
             GitHub Repository
           </a>
         </div>
+            <p className='aboutUsP'>
+            The primary aim of our project is to enhance the efficiency of intelligent transportation planning through the integration of both 2D and 3D vehicle detection technologies. Initially designed to harness the capabilities of 3D LiDAR technology, practical deployment has predominantly utilized 2D vehicle detection using the advanced YOLOv7 tiny algorithm. This strategic pivot aligns with our immediate technological capabilities and resource availability, while keeping future integration of 3D systems in view.
+
+Our system efficiently captures, processes, and analyzes real-time traffic flow data. An essential part of our setup is the Enhanced Historical Data Visualization System, which facilitates a comprehensive analysis and visualization of historical traffic data. This feature aids in understanding long-term traffic patterns and supports informed decision-making in traffic management and planning.
+
+The selection of YOLOv7 tiny for our 2D model capitalizes on its efficiency and minimal computational requirements, ideal for real-time applications crucial to our project's objectives.
+
+Although our ultimate goal includes leveraging full 3D LiDAR capabilities to advance the field of real-time vehicle detection, the focus on refining 2D detection technologies sets a robust benchmark for ongoing traffic data analysis. This strategy not only meets current operational demands but also establishes a scalable framework for future enhancements, aiming to significantly improve the effectiveness of intelligent transportation systems.
+            </p>
+          </div>
+        </div>
+
+
 
         <div className="row row-cols-2 row-cols-xxl-3 gy-2 gx-2">
           <div className="col">

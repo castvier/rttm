@@ -20,7 +20,7 @@ const VideoPlayer = () => {
               width: '100%',
               height: '100%',
             }}
-            src="https://www.youtube.com/embed/Dq8YhgH8hdg"
+            src="https://www.youtube.com/embed/d5XCD-lAb08?si=_YXXLJNFbdCqKAWk"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -43,7 +43,7 @@ const VideoPlayer = () => {
               width: '100%',
               height: '100%',
             }}
-            src="https://www.youtube.com/embed/FdwzPwGrFvQ"
+            src="https://www.youtube.com/embed/XIHA25Tl9pw?si=ChptVsW7-53QkUkK"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
